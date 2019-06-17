@@ -1,4 +1,4 @@
-FROM node:8.12-jessie
+FROM node:10.16-jessie
 
 RUN apt-get update && apt-get install python-dev python-pip -y
 
